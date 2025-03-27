@@ -1,4 +1,4 @@
-package com.dc.school.schoolauth.config;
+package com.dc.school.subject.config;
 
 
 import org.springframework.beans.factory.annotation.Value;

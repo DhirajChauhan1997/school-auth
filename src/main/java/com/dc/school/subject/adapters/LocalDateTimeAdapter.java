@@ -1,4 +1,4 @@
-package com.dc.school.schoolauth.adapters;
+package com.dc.school.subject.adapters;
 
 import com.google.gson.*;
 import java.lang.reflect.Type;

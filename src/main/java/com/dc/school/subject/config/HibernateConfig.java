@@ -1,4 +1,4 @@
-package com.dc.school.schoolauth.config;
+package com.dc.school.subject.config;
 
 import java.util.Properties;
 import javax.sql.DataSource;
@@ -37,7 +37,7 @@ public class HibernateConfig {
     public LocalSessionFactoryBean entityManagerFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("com.dc.configurationsystem.model","com.dc.model","com.dc.pathshalay.model");
+        sessionFactory.setPackagesToScan("com.dc.school.model");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

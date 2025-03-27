@@ -1,6 +1,6 @@
-package com.dc.school.schoolauth.config;
+package com.dc.school.subject.config;
 
-import com.dc.school.schoolauth.adapters.LocalDateTimeAdapter;
+import com.dc.school.subject.adapters.LocalDateTimeAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.context.annotation.Bean;

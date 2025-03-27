@@ -1,8 +1,7 @@
-package com.dc.school.schoolauth.controller;
+package com.dc.school.subject.controller;
 
-import com.dc.school.model.ClassTeacher;
 import com.dc.school.model.User;
-import com.dc.school.schoolauth.utils.JwtUtil;
+import com.dc.school.subject.utils.JwtUtil;
 import com.dc.school.service.UserService;
 import com.dc.school.tos.UserTO;
 import com.dc.school.utility.ApiResponse;
@@ -34,8 +33,4 @@ public class AuthController {
                     .body(ApiResponse.error("Invalid username or password"));
         }
     }
-
-
-
-
 }

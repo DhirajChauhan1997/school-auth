@@ -1,7 +1,7 @@
-package com.dc.school.schoolauth.filter;
+package com.dc.school.subject.filter;
 
 
-import com.dc.school.schoolauth.utils.JwtUtil;
+import com.dc.school.subject.utils.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.dc.school.schoolauth.utils;
+package com.dc.school.subject.utils;
 
 import com.dc.school.utility.ErrorResponse;
 import com.dc.school.utility.ResourceNotFoundException;
